@@ -5,6 +5,11 @@ Terratest is a Go library developed at Gruntwork, that makes it easier to write
 git clone https://github.com/imnitin28/terra-form-test-techhub.git
 cd test
 go mod init "<MODULE_NAME>"
-## MODULE_NAME would be github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME> 
-
+**MODULE_NAME would be github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>**
+go mod init github.com/imnitin28/terra-form-test-techhub
 go run
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+go mod init "<MODULE_NAME>" would create go.mod file into test folder.
+On running **go test** for the first time you would get go.sum file created.
